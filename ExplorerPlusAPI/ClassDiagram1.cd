@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusFilesystemList" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RgAAQoAACCQAAGACAACBQAKCAQCEAQAAAAAKRYAACAA=</HashCode>
+      <FileName>Controls\ExplorerPlusFilesystemList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusFilesystemView" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCQCAAAAgCAAQAAAAESIAgACAAACAAACAAAAAgCAAAI=</HashCode>
+      <FileName>Controls\ExplorerPlusFilesystemView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusFileView" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiAAAiAgACAQBWAAAASBQAADBAEAEQAIAAAIAABQIIA=</HashCode>
+      <FileName>Controls\ExplorerPlusFileView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusMenuBar" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAQAAAACAIAAEAAACAAAACAACMgAEAAUAEQBAACAI=</HashCode>
+      <FileName>Controls\ExplorerPlusMenuBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusMenuBarExtend" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAwgAAACAIAgEBAACAAAACAQC8gAEAIUAMJBAAAII=</HashCode>
+      <FileName>Controls\ExplorerPlusMenuBarExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusNetworkFilesystem" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCAAACBCgAACQACACAAggCAAACAAAAAAAAAgAAAiA=</HashCode>
+      <FileName>Controls\ExplorerPlusNetworkFilesystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusStatusDirectory" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACQgAAAgCBABBAAAACAAAjCAwQAAAZAQAQKAAABBEA=</HashCode>
+      <FileName>Controls\ExplorerPlusStatusDirectory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Controls.ExplorerPlusStatusDrive" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAYAACACABCIKCCAAAACAAAAdQAAAAQCAYAJBIA=</HashCode>
+      <FileName>Controls\ExplorerPlusStatusDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.DirectoryFunctions" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAIAAAAIAAAAA=</HashCode>
+      <FileName>DirectoryFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.DriveFunctions" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAkBAAAgAACAAAAAAAAgIBQAAAAAEEIAAAIE=</HashCode>
+      <FileName>DriveFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.ExtraFunctions" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAQAAAAAAAAAAAAAAAAAAABIAAASAAAAAAA=</HashCode>
+      <FileName>ExtraFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.FileFunctions" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQIAAAAAAAgAAABCAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>FileFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.PathGUID" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LCEUL5KDFIwCIAAAiIQiEBKrCAlmgQWocSVwwHRoWAs=</HashCode>
+      <FileName>FileFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.FilesystemIcons" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAACCgBAgAAIkAAABAIECIIggAACIAAAA=</HashCode>
+      <FileName>FilesystemIcons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.FTP" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>FTP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.LocalNetworkFunctions" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABAAAAAAAAJAAAAAAAAAAAAAAAAAAgAAQAAA=</HashCode>
+      <FileName>LocalNetworkFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.PingClass" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAkAAAAgAIAIAAAAAQAAAAAAAAQA=</HashCode>
+      <FileName>PingClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.SSD" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAIAAwECAABAgAAEgQgAAAACAAAAAIAFAIAAAYA=</HashCode>
+      <FileName>SSD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.WinAPI" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAIAgAABAAAIEAQCgAAAABEAAAAAAAAAAAQAAAAAI=</HashCode>
+      <FileName>WinAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Dialogs.FileTransferDialog" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAACIiQAABAiggHAQMQSCAAAAAAAUAJEhQACEgA=</HashCode>
+      <FileName>Dialogs\FileTransferDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplorerPlus.API.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ExplorerPlus.API.ENTRY_TYPE" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ExplorerPlus.API.ExplorerPlusFilesystemHandler" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ExplorerPlus.API.ExplorerPlusFilesystemHandlerEx" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ExplorerPlus.API.ExplorerPlusControlsMenuHandler" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ExplorerPlus.API.NetworkPingEventHandler" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PingClass.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
