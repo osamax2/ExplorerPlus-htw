@@ -13,21 +13,45 @@ namespace ExplorerPlus.API.Controls
 {
     public partial class ListOpen : UserControl
     {
-        public ListOpen()
+
+
+        private void Readxml()
         {
-            InitializeComponent();
             try
             {
                 XmlReader xmlFile;
                 xmlFile = XmlReader.Create(@"C:\Users\osama\Desktop\ExplorerPlus-master\ExplorerPlus\bin\Debug\path.xml", new XmlReaderSettings());
                 DataSet ds = new DataSet();
                 ds.ReadXml(xmlFile);
-                dataGridView1.DataSource = ds.Tables[0];
+                if (ds.Tables.Count > 1)
+                {
+                    dataGridView1.DataSource = ds.Tables[1];
+                    dataGridView1.Sort(dataGridView1.Columns[0], ListSortDirection.Descending);
+                }
+                else
+                    dataGridView1.DataSource = ds.Tables[0];
+
+
+                
+                xmlFile.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
+
+        }
+
+        public override void Refresh()
+        {
+            base.Refresh();
+            Readxml();
+        }
+
+        public ListOpen()
+        {
+            InitializeComponent();
+            Readxml();
         }
     }
     

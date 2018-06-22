@@ -29,6 +29,7 @@ namespace ExplorerPlus
         {
             //Den Pfad an ExplorerPlusFileView übergeben, damit die Anzeige für den Pfad geladen werden kann
             explorerplusfv.SelectedPath = path;
+            listOpen1.Refresh();
             explorerplusmenubar.MenuBarURLText = path;
             if (explorerplusmenubar.MenuBarURLText.Length > 0 && explorerplusmenubar.MenuBarURLText.Substring(explorerplusmenubar.MenuBarURLText.Length - 1,1) != @"\") //Wenn das \ noch fehlt, soll dies hinzugefügt werden
                 explorerplusmenubar.MenuBarURLText += @"\";
@@ -36,6 +37,7 @@ namespace ExplorerPlus
 
         private void explorerplusfv_FileListLoaded(string path)
         {
+            listOpen1.Refresh();
             //Jetzt die Anzahl der Elemente in der FileList in die Statusleiste einfügen
             if (explorerplusfv.FileListCount == 1)
                 tslbelementcount.Text = "1 Element";
@@ -49,6 +51,7 @@ namespace ExplorerPlus
 
         private void explorerplusnfs_SelectedPathChanged(string path)
         {
+            listOpen1.Refresh();
             //Den Pfad an ExplorerPlusFileView übergeben, damit die Anzeige für den Pfad geladen werden kann
             explorerplusfv.SelectedPath = path;
             explorerplusmenubar.MenuBarURLText = path;
@@ -58,6 +61,7 @@ namespace ExplorerPlus
 
         private void explorerplusfv_SelectedFileClick(string path, ENTRY_TYPE type)
         {
+            listOpen1.Refresh();
             //Anhand des Paths, der zurückgegeben wird, soll 
             switch (type)
             {
@@ -80,6 +84,7 @@ namespace ExplorerPlus
 
         private void explorerplusmenubar_MenuSelectpathChanged(string path)
         {
+            listOpen1.Refresh();
             if (explorerplusmenubar.MenuBarURLText.Length > 0 && explorerplusmenubar.MenuBarURLText.Substring(explorerplusmenubar.MenuBarURLText.Length - 1, 1) != @"\") //Wenn das \ noch fehlt, soll dies hinzugefügt werden
                 explorerplusmenubar.MenuBarURLText += @"\";
             explorerplusfv.SelectedPath = explorerplusmenubar.MenuBarURLText;
@@ -87,6 +92,7 @@ namespace ExplorerPlus
 
         private void explorerplusfv_SelectedFileDoubleClickEx(string path, ENTRY_TYPE type)
         {
+            listOpen1.Refresh();
             if (Path.GetExtension(path) == ".txt")
                 sd.readtxtFile(path);
             else
