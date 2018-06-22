@@ -10,7 +10,7 @@ namespace ExplorerPlus.API.Controls
     public partial class ExplorerPlusFileView : UserControl
     {
         private static string fileName="path.xml";
-        private views viewload;
+        private static views viewload;
         private string _selectedpath = "";
         private List<string> recentpaths; //Liste mit den zuletzt ausgewählten Pfaden
         private List<string> undolist = null;
@@ -42,7 +42,26 @@ IsNullable = false)]
 
             private static int count = 0;
 
+            public static void reset()
+            {
+                views temp = new views();
+                temp.Urls = new List<URL>();
 
+                    // Create an instance of the XmlSerializer class;
+                    // specify the type of object to serialize.
+                    XmlSerializer serializer =
+                    new XmlSerializer(typeof(views));
+                    TextWriter writer = new StreamWriter(ExplorerPlusFileView.fileName);
+                // Serialize the urls, and close the TextWriter.
+                
+                    serializer.Serialize(writer, temp);
+                    writer.Close();
+                    viewload.Urls = temp.Urls;
+                    
+
+
+
+            }
             public views()
             {
             }
@@ -54,7 +73,7 @@ IsNullable = false)]
         }
 
 
-        protected void Loadviews()
+        public void Loadviews()
         {
             // Create an instance of the XmlSerializer class;
             // specify the type of object to be deserialized.
@@ -127,6 +146,7 @@ IsNullable = false)]
             // Serialize the urls, and close the TextWriter.
             serializer.Serialize(writer, viewload);
             writer.Close();
+
 
         }
         public void setView(string Path)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ExplorerPlus
 
 ExplorerPlus is a open source C# File Explorer written with .NET Framework 4.5. The Target of this project is to create a File Browser, which is based on a own API. So can everyone build his own File Browser and can create his own controls with the API-Functions.
@@ -15,3 +16,7 @@ ExplorerPlus is a open source C# File Explorer written with .NET Framework 4.5. 
 
 # Known Issues
 - When the program will shutdown when it pings to all devices in the network, than it comes to a bluescreen
+=======
+# ExplorerPlus-htw
+Software Technik Project
+>>>>>>> 2bc78c7bd3c95dfde24596236e93aba6f09720d3

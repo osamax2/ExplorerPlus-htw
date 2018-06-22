@@ -38,6 +38,7 @@
             this.btnnewfolder = new System.Windows.Forms.Button();
             this.txtsearchtext = new System.Windows.Forms.TextBox();
             this.btnsearch = new System.Windows.Forms.Button();
+            this.resetbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbfolderbar
@@ -45,9 +46,9 @@
             this.cbfolderbar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbfolderbar.FormattingEnabled = true;
-            this.cbfolderbar.Location = new System.Drawing.Point(107, 5);
+            this.cbfolderbar.Location = new System.Drawing.Point(211, 5);
             this.cbfolderbar.Name = "cbfolderbar";
-            this.cbfolderbar.Size = new System.Drawing.Size(342, 21);
+            this.cbfolderbar.Size = new System.Drawing.Size(238, 21);
             this.cbfolderbar.TabIndex = 6;
             this.cbfolderbar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbfolderbar_KeyDown);
             // 
@@ -191,11 +192,22 @@
             this.btnsearch.UseVisualStyleBackColor = false;
             this.btnsearch.Click += new System.EventHandler(this.btnsearch_Click);
             // 
+            // resetbtn
+            // 
+            this.resetbtn.Location = new System.Drawing.Point(107, 3);
+            this.resetbtn.Name = "resetbtn";
+            this.resetbtn.Size = new System.Drawing.Size(98, 26);
+            this.resetbtn.TabIndex = 11;
+            this.resetbtn.Text = "Reset Counter";
+            this.resetbtn.UseVisualStyleBackColor = true;
+            this.resetbtn.Click += new System.EventHandler(this.resetbtn_Click);
+            // 
             // ExplorerPlusMenuBarExtend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.resetbtn);
             this.Controls.Add(this.txtsearchtext);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
@@ -223,5 +235,6 @@
         private System.Windows.Forms.Button btnnewfolder;
         private System.Windows.Forms.TextBox txtsearchtext;
         private System.Windows.Forms.Button btnsearch;
+        private System.Windows.Forms.Button resetbtn;
     }
 }

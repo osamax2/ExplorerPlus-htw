@@ -41,7 +41,9 @@
             this.explorerplusnfs = new ExplorerPlus.API.Controls.ExplorerPlusNetworkFilesystem();
             this.explorerplusfv = new ExplorerPlus.API.Controls.ExplorerPlusFileView();
             this.explorerplusmenubar = new ExplorerPlus.API.Controls.ExplorerPlusMenuBarExtend();
+            this.listOpen1 = new ExplorerPlus.API.Controls.ListOpen();
             this.statusStrip1.SuspendLayout();
+            this.formpanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,6 +93,7 @@
             // formpanel
             // 
             this.formpanel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.formpanel.Controls.Add(this.listOpen1);
             this.formpanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.formpanel.Location = new System.Drawing.Point(1176, 32);
             this.formpanel.Name = "formpanel";
@@ -166,6 +169,13 @@
             this.explorerplusmenubar.TabIndex = 2;
             this.explorerplusmenubar.MenuSelectpathChanged += new ExplorerPlus.API.ExplorerPlusFilesystemHandler(this.explorerplusmenubar_MenuSelectpathChanged);
             // 
+            // listOpen1
+            // 
+            this.listOpen1.Location = new System.Drawing.Point(6, 8);
+            this.listOpen1.Name = "listOpen1";
+            this.listOpen1.Size = new System.Drawing.Size(182, 348);
+            this.listOpen1.TabIndex = 0;
+            // 
             // frmmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,6 +195,7 @@
             this.Text = "ExplorerPlus";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.formpanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -196,6 +207,7 @@
         private System.Windows.Forms.ToolStripStatusLabel tslbelementcount;
         private API.Controls.ExplorerPlusMenuBarExtend explorerplusmenubar;
         private API.Controls.ExplorerPlusFileView explorerplusfv;
+       
         private System.Windows.Forms.Splitter splitter3;
         private System.Windows.Forms.Panel statuspanel;
         private System.Windows.Forms.Splitter splitter2;
@@ -205,6 +217,7 @@
         private API.Controls.ExplorerPlusFilesystemView explorerplusfstv;
         private System.Windows.Forms.Splitter splitter4;
         private API.Controls.ExplorerPlusNetworkFilesystem explorerplusnfs;
+        private API.Controls.ListOpen listOpen1;
     }
 }
 

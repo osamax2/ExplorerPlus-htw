@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ExplorerPlus.API.Controls;
 
 namespace ExplorerPlus.API.Controls
 {
@@ -94,5 +95,6 @@ namespace ExplorerPlus.API.Controls
             if (MenuReloadButtonClicked != null)
                 MenuReloadButtonClicked();
         }
+
     }
 }

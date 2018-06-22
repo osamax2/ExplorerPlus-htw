@@ -53,7 +53,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(381, 25);
+            this.panel1.Size = new System.Drawing.Size(725, 25);
             this.panel1.TabIndex = 0;
             // 
             // btnforward
@@ -84,7 +84,7 @@
             this.btndelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btndelete.Image = ((System.Drawing.Image)(resources.GetObject("btndelete.Image")));
-            this.btndelete.Location = new System.Drawing.Point(354, 1);
+            this.btndelete.Location = new System.Drawing.Point(698, 1);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(26, 23);
             this.btndelete.TabIndex = 1;
@@ -96,7 +96,7 @@
             this.btnadd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnadd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnadd.Image = ((System.Drawing.Image)(resources.GetObject("btnadd.Image")));
-            this.btnadd.Location = new System.Drawing.Point(329, 1);
+            this.btnadd.Location = new System.Drawing.Point(673, 1);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(26, 23);
             this.btnadd.TabIndex = 1;
@@ -110,7 +110,7 @@
             this.cbrecentpaths.FormattingEnabled = true;
             this.cbrecentpaths.Location = new System.Drawing.Point(58, 2);
             this.cbrecentpaths.Name = "cbrecentpaths";
-            this.cbrecentpaths.Size = new System.Drawing.Size(270, 21);
+            this.cbrecentpaths.Size = new System.Drawing.Size(614, 21);
             this.cbrecentpaths.TabIndex = 0;
             this.cbrecentpaths.SelectedIndexChanged += new System.EventHandler(this.cbrecentpaths_SelectedIndexChanged);
             this.cbrecentpaths.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbrecentpaths_KeyDown);
@@ -125,7 +125,7 @@
             this.lvfs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvfs.Location = new System.Drawing.Point(0, 25);
             this.lvfs.Name = "lvfs";
-            this.lvfs.Size = new System.Drawing.Size(381, 467);
+            this.lvfs.Size = new System.Drawing.Size(725, 467);
             this.lvfs.TabIndex = 1;
             this.lvfs.UseCompatibleStateImageBehavior = false;
             this.lvfs.View = System.Windows.Forms.View.Details;
@@ -155,7 +155,7 @@
             this.Controls.Add(this.lvfs);
             this.Controls.Add(this.panel1);
             this.Name = "ExplorerPlusFilesystemList";
-            this.Size = new System.Drawing.Size(381, 492);
+            this.Size = new System.Drawing.Size(725, 492);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

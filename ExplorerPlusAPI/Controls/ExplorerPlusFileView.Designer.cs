@@ -47,7 +47,7 @@
             this.lvfiles.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvfiles.Location = new System.Drawing.Point(0, 0);
             this.lvfiles.Name = "lvfiles";
-            this.lvfiles.Size = new System.Drawing.Size(464, 313);
+            this.lvfiles.Size = new System.Drawing.Size(622, 313);
             this.lvfiles.TabIndex = 0;
             this.lvfiles.UseCompatibleStateImageBehavior = false;
             this.lvfiles.View = System.Windows.Forms.View.Details;
@@ -84,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lvfiles);
             this.Name = "ExplorerPlusFileView";
-            this.Size = new System.Drawing.Size(464, 313);
+            this.Size = new System.Drawing.Size(622, 313);
             this.ResumeLayout(false);
 
         }

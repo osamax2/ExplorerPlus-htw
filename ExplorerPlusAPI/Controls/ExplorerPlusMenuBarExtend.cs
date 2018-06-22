@@ -128,5 +128,12 @@ namespace ExplorerPlus.API.Controls
                     MenuSearchButtonClicked(txtsearchtext.Text);
             }
         }
+
+        private void resetbtn_Click(object sender, EventArgs e)
+        {
+            ExplorerPlusFileView.views.reset();
+            KeyEventArgs ke = new KeyEventArgs(Keys.Enter);
+            cbfolderbar_KeyDown(sender, ke);
+        }
     }
 }

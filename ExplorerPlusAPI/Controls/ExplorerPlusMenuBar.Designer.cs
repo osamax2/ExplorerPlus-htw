@@ -94,9 +94,9 @@
             this.cbfolderbar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbfolderbar.FormattingEnabled = true;
-            this.cbfolderbar.Location = new System.Drawing.Point(107, 3);
+            this.cbfolderbar.Location = new System.Drawing.Point(209, 3);
             this.cbfolderbar.Name = "cbfolderbar";
-            this.cbfolderbar.Size = new System.Drawing.Size(804, 21);
+            this.cbfolderbar.Size = new System.Drawing.Size(702, 21);
             this.cbfolderbar.TabIndex = 1;
             this.cbfolderbar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbfolderbar_KeyDown);
             // 

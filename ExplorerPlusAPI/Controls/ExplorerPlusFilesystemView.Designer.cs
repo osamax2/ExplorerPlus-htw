@@ -42,7 +42,7 @@
             this.tvfilesystem.Location = new System.Drawing.Point(0, 0);
             this.tvfilesystem.Name = "tvfilesystem";
             this.tvfilesystem.SelectedImageIndex = 0;
-            this.tvfilesystem.Size = new System.Drawing.Size(699, 255);
+            this.tvfilesystem.Size = new System.Drawing.Size(630, 255);
             this.tvfilesystem.TabIndex = 0;
             this.tvfilesystem.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.tvfilesystem_BeforeExpand);
             this.tvfilesystem.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvfilesystem_AfterSelect);
@@ -64,7 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tvfilesystem);
             this.Name = "ExplorerPlusFilesystemView";
-            this.Size = new System.Drawing.Size(699, 255);
+            this.Size = new System.Drawing.Size(630, 255);
             this.ResumeLayout(false);
 
         }
